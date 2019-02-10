@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c5804bee66de4c839854073f8ef0ad63 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c5804bee66de4c839854073f8ef0ad63" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c5804bee66de4c839854073f8ef0ad63 = L.map(
+        'map_c5804bee66de4c839854073f8ef0ad63', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_8ae207b9ca054b77be4ec1e5242103c2 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c5804bee66de4c839854073f8ef0ad63);
+    
+            var feature_group_79e4a2d9f06b487983344f063427d2c1 = L.featureGroup(
+                ).addTo(map_c5804bee66de4c839854073f8ef0ad63);
+        
+    
+            var circle_marker_5aba20e3a905422d984c2e11841d7379 = L.circleMarker(
+                [-10.3333333, -53.2],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_2d4ce71976bc4b558ee76a8d9fbba354 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_229b265525f94582bc3209cbc5aebe15 = $(`<div id="html_229b265525f94582bc3209cbc5aebe15" style="width: 100.0%; height: 100.0%;">Ex isto | Brasilia Brazil | (2016)</div>`)[0];
+                popup_2d4ce71976bc4b558ee76a8d9fbba354.setContent(html_229b265525f94582bc3209cbc5aebe15);
+            
+
+            circle_marker_5aba20e3a905422d984c2e11841d7379.bindPopup(popup_2d4ce71976bc4b558ee76a8d9fbba354)
+            ;
+
+            
+        
+    
+            var circle_marker_21e6795943e54613ab72f896b5aff5dc = L.circleMarker(
+                [41.881644, -87.6320948089129],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_6b1f66e3061842c8976e6f67433171f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_64bb563ac8784582a16deba7b8196fea = $(`<div id="html_64bb563ac8784582a16deba7b8196fea" style="width: 100.0%; height: 100.0%;">Excelerated | Chicago Illinois USA Downtown | (2015)</div>`)[0];
+                popup_6b1f66e3061842c8976e6f67433171f5.setContent(html_64bb563ac8784582a16deba7b8196fea);
+            
+
+            circle_marker_21e6795943e54613ab72f896b5aff5dc.bindPopup(popup_6b1f66e3061842c8976e6f67433171f5)
+            ;
+
+            
+        
+    
+            var circle_marker_a290e822625e4cb288068c88f7837991 = L.circleMarker(
+                [51.0834196, 10.4234469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_4aa46878090b447a830f9f392f8896c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b37f1aa1915942cfaae30a902b00672a = $(`<div id="html_b37f1aa1915942cfaae30a902b00672a" style="width: 100.0%; height: 100.0%;">Exchanged | Germany | (2018)</div>`)[0];
+                popup_4aa46878090b447a830f9f392f8896c0.setContent(html_b37f1aa1915942cfaae30a902b00672a);
+            
+
+            circle_marker_a290e822625e4cb288068c88f7837991.bindPopup(popup_4aa46878090b447a830f9f392f8896c0)
+            ;
+
+            
+        
+    
+            var circle_marker_038834e7e8d64c0f8b74a3d8aba212e5 = L.circleMarker(
+                [34.1133062, -118.1478291],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_6f064a96c8d545a7a134fa5ec2fcafca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_904ccfca6173439db47aa26e0afebed4 = $(`<div id="html_904ccfca6173439db47aa26e0afebed4" style="width: 100.0%; height: 100.0%;">Teen Wolf | South Pasadena California USA | (1985)</div>`)[0];
+                popup_6f064a96c8d545a7a134fa5ec2fcafca.setContent(html_904ccfca6173439db47aa26e0afebed4);
+            
+
+            circle_marker_038834e7e8d64c0f8b74a3d8aba212e5.bindPopup(popup_6f064a96c8d545a7a134fa5ec2fcafca)
+            ;
+
+            
+        
+    
+            var circle_marker_d5a586fa16024813956e4c42553da82a = L.circleMarker(
+                [22.3511148, 78.6677428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_77bdd7ec899249dcaf70fffe636f1dcb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1502df576b704210b189e50629b714a5 = $(`<div id="html_1502df576b704210b189e50629b714a5" style="width: 100.0%; height: 100.0%;">Tees Maar Khan | India | (2010)</div>`)[0];
+                popup_77bdd7ec899249dcaf70fffe636f1dcb.setContent(html_1502df576b704210b189e50629b714a5);
+            
+
+            circle_marker_d5a586fa16024813956e4c42553da82a.bindPopup(popup_77bdd7ec899249dcaf70fffe636f1dcb)
+            ;
+
+            
+        
+    
+            var circle_marker_1c53c32bc934409f8aac4b73ad92e71a = L.circleMarker(
+                [37.239243, -121.8767664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_3069bd91bfb141e5ac8798781a48c1a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f50802f8f0b047d3a72c2b01dfb89b4a = $(`<div id="html_f50802f8f0b047d3a72c2b01dfb89b4a" style="width: 100.0%; height: 100.0%;">Tebas | Porto Portugal | (2007)</div>`)[0];
+                popup_3069bd91bfb141e5ac8798781a48c1a6.setContent(html_f50802f8f0b047d3a72c2b01dfb89b4a);
+            
+
+            circle_marker_1c53c32bc934409f8aac4b73ad92e71a.bindPopup(popup_3069bd91bfb141e5ac8798781a48c1a6)
+            ;
+
+            
+        
+    
+            var circle_marker_4227412b89b745b8af1715e8f3b6a06c = L.circleMarker(
+                [-25.7459374, 28.1879444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_1955d88db4e844e283795084f9291814 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_983c5412c7e7490b830b4ac01e354711 = $(`<div id="html_983c5412c7e7490b830b4ac01e354711" style="width: 100.0%; height: 100.0%;">The South African Mines | Pretoria South Africa | (1914)</div>`)[0];
+                popup_1955d88db4e844e283795084f9291814.setContent(html_983c5412c7e7490b830b4ac01e354711);
+            
+
+            circle_marker_4227412b89b745b8af1715e8f3b6a06c.bindPopup(popup_1955d88db4e844e283795084f9291814)
+            ;
+
+            
+        
+    
+            var circle_marker_fd3e017efa3d4d3a92395471cd50a654 = L.circleMarker(
+                [47.1817585, 19.5060937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_4c985d1d855d48068d1724d771488785 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0aef8e5f79b34a2499834c8177ee5e7b = $(`<div id="html_0aef8e5f79b34a2499834c8177ee5e7b" style="width: 100.0%; height: 100.0%;">Ãnnep | Hungary | (2009)</div>`)[0];
+                popup_4c985d1d855d48068d1724d771488785.setContent(html_0aef8e5f79b34a2499834c8177ee5e7b);
+            
+
+            circle_marker_fd3e017efa3d4d3a92395471cd50a654.bindPopup(popup_4c985d1d855d48068d1724d771488785)
+            ;
+
+            
+        
+    
+            var circle_marker_ecd84c8aa0544e4e99ba2cac21c748f5 = L.circleMarker(
+                [53.550341, 10.000654],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_fdbd84e5d09748a9a94e219254dd3155 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_254d773b627d4d0397586c3836f3bac3 = $(`<div id="html_254d773b627d4d0397586c3836f3bac3" style="width: 100.0%; height: 100.0%;">Zielscheiben | Hamburg Germany | (1985)</div>`)[0];
+                popup_fdbd84e5d09748a9a94e219254dd3155.setContent(html_254d773b627d4d0397586c3836f3bac3);
+            
+
+            circle_marker_ecd84c8aa0544e4e99ba2cac21c748f5.bindPopup(popup_fdbd84e5d09748a9a94e219254dd3155)
+            ;
+
+            
+        
+    
+            var circle_marker_e8eff31343b54761b132952e4225ab11 = L.circleMarker(
+                [35.000074, 104.999927],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_53228c2e585549f3b89b57a8879042a3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_360611ea9f2549a6b92132e8b58fc314 = $(`<div id="html_360611ea9f2549a6b92132e8b58fc314" style="width: 100.0%; height: 100.0%;">Yi xian sheng ji | China | (1994)</div>`)[0];
+                popup_53228c2e585549f3b89b57a8879042a3.setContent(html_360611ea9f2549a6b92132e8b58fc314);
+            
+
+            circle_marker_e8eff31343b54761b132952e4225ab11.bindPopup(popup_53228c2e585549f3b89b57a8879042a3)
+            ;
+
+            
+        
+    
+            var circle_marker_5189040b70dd49269dada06c59cd5e66 = L.circleMarker(
+                [53.8000645, -9.520218],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_4cbd55ce97e64b41a3835ead23ee64fa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d9e4ab3d06d4101ba9a938909c18ac5 = $(`<div id="html_6d9e4ab3d06d4101ba9a938909c18ac5" style="width: 100.0%; height: 100.0%;">Covies | Westport County Mayo Ireland | (2010)</div>`)[0];
+                popup_4cbd55ce97e64b41a3835ead23ee64fa.setContent(html_6d9e4ab3d06d4101ba9a938909c18ac5);
+            
+
+            circle_marker_5189040b70dd49269dada06c59cd5e66.bindPopup(popup_4cbd55ce97e64b41a3835ead23ee64fa)
+            ;
+
+            
+        
+    
+            var circle_marker_a2ac009d52b2485eb90f78196d915889 = L.circleMarker(
+                [40.4416941, -79.9900861],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_6a612232a83045bdbd6ff1fe43908c35 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_671ceb0322c84deb916e4427c657a816 = $(`<div id="html_671ceb0322c84deb916e4427c657a816" style="width: 100.0%; height: 100.0%;">Chance of a Lifetime | Pittsburgh Pennsylvania USA | (1950)</div>`)[0];
+                popup_6a612232a83045bdbd6ff1fe43908c35.setContent(html_671ceb0322c84deb916e4427c657a816);
+            
+
+            circle_marker_a2ac009d52b2485eb90f78196d915889.bindPopup(popup_6a612232a83045bdbd6ff1fe43908c35)
+            ;
+
+            
+        
+    
+            var circle_marker_b3b4c665f98144fda2277d8ea4401a8f = L.circleMarker(
+                [55.001251, -125.002441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_f45fdf9773c24927972ad4dc241dd172 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_47a46682919340dba76e3d3eb12e13f1 = $(`<div id="html_47a46682919340dba76e3d3eb12e13f1" style="width: 100.0%; height: 100.0%;">Chalets de la cÃ´te Ouest | British Columbia Canada | (2014)</div>`)[0];
+                popup_f45fdf9773c24927972ad4dc241dd172.setContent(html_47a46682919340dba76e3d3eb12e13f1);
+            
+
+            circle_marker_b3b4c665f98144fda2277d8ea4401a8f.bindPopup(popup_f45fdf9773c24927972ad4dc241dd172)
+            ;
+
+            
+        
+    
+            var circle_marker_4deb5856638a4061af0ee51b540fac11 = L.circleMarker(
+                [50.0874654, 14.4212535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_f04542afafcf409087375cce3cd0fed8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e90dcce5cd948789f25a1c61851b25c = $(`<div id="html_0e90dcce5cd948789f25a1c61851b25c" style="width: 100.0%; height: 100.0%;">CeskÃ½ zurnÃ¡l | Prague Czech Republic | (2013)</div>`)[0];
+                popup_f04542afafcf409087375cce3cd0fed8.setContent(html_0e90dcce5cd948789f25a1c61851b25c);
+            
+
+            circle_marker_4deb5856638a4061af0ee51b540fac11.bindPopup(popup_f04542afafcf409087375cce3cd0fed8)
+            ;
+
+            
+        
+    
+            var circle_marker_3417dd1b810c4484af8e1a25b72b5f2d = L.circleMarker(
+                [19.4326009, -99.1333416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_290f1c3e30184bd98acde0fffe16dd10 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d80c1a0b5fe49a78345c2f7a9c5cd59 = $(`<div id="html_4d80c1a0b5fe49a78345c2f7a9c5cd59" style="width: 100.0%; height: 100.0%;">Central de mÃºsica | Mexico | (1995)</div>`)[0];
+                popup_290f1c3e30184bd98acde0fffe16dd10.setContent(html_4d80c1a0b5fe49a78345c2f7a9c5cd59);
+            
+
+            circle_marker_3417dd1b810c4484af8e1a25b72b5f2d.bindPopup(popup_290f1c3e30184bd98acde0fffe16dd10)
+            ;
+
+            
+        
+    
+            var circle_marker_fd1b18d857e74907828b3e3a5fe76b34 = L.circleMarker(
+                [26.2540493, 29.2675469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_0dce8e262b69445a9b42588c02990986 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ea10ef4343214bf68fa88fc86d058f35 = $(`<div id="html_ea10ef4343214bf68fa88fc86d058f35" style="width: 100.0%; height: 100.0%;">Catholicism | Egypt | (2011)</div>`)[0];
+                popup_0dce8e262b69445a9b42588c02990986.setContent(html_ea10ef4343214bf68fa88fc86d058f35);
+            
+
+            circle_marker_fd1b18d857e74907828b3e3a5fe76b34.bindPopup(popup_0dce8e262b69445a9b42588c02990986)
+            ;
+
+            
+        
+    
+            var circle_marker_390a5fc92ab1413087644d93e33eed1a = L.circleMarker(
+                [45.5202471, -122.6741949],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_05347329679d44dfb523500677b7ace5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_da5cb3dd29c448c0b014b3b280304edc = $(`<div id="html_da5cb3dd29c448c0b014b3b280304edc" style="width: 100.0%; height: 100.0%;">Cathedral Park | Portland Oregon USA | (2015)</div>`)[0];
+                popup_05347329679d44dfb523500677b7ace5.setContent(html_da5cb3dd29c448c0b014b3b280304edc);
+            
+
+            circle_marker_390a5fc92ab1413087644d93e33eed1a.bindPopup(popup_05347329679d44dfb523500677b7ace5)
+            ;
+
+            
+        
+    
+            var circle_marker_217a9a257eb9459f900503a0f726f8be = L.circleMarker(
+                [53.407154, -2.991665],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_8985ecbbe0e04b4c8a626424d36150c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4c6a41cc0fb34ff39bee958b3a05bc17 = $(`<div id="html_4c6a41cc0fb34ff39bee958b3a05bc17" style="width: 100.0%; height: 100.0%;">Casualty 1907 | Liverpool England UK | (2008)</div>`)[0];
+                popup_8985ecbbe0e04b4c8a626424d36150c4.setContent(html_4c6a41cc0fb34ff39bee958b3a05bc17);
+            
+
+            circle_marker_217a9a257eb9459f900503a0f726f8be.bindPopup(popup_8985ecbbe0e04b4c8a626424d36150c4)
+            ;
+
+            
+        
+    
+            var circle_marker_a09845a0cf634cfebbb8b8bf26703780 = L.circleMarker(
+                [38.8355605, -9.35222525884862],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_c6023ad3d0134a62a0859f67435d8a57 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6def0860464e4fa9a486f6ce314814d1 = $(`<div id="html_6def0860464e4fa9a486f6ce314814d1" style="width: 100.0%; height: 100.0%;">Castles of the Ages | Sintra Portugal | (2012)</div>`)[0];
+                popup_c6023ad3d0134a62a0859f67435d8a57.setContent(html_6def0860464e4fa9a486f6ce314814d1);
+            
+
+            circle_marker_a09845a0cf634cfebbb8b8bf26703780.bindPopup(popup_c6023ad3d0134a62a0859f67435d8a57)
+            ;
+
+            
+        
+    
+            var circle_marker_cb3a428194eb4177bb7bc40a58c3ad03 = L.circleMarker(
+                [21.2160437, -157.975203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_84ce193d79c4463c8e6ad56eb4b6f554 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e453b29423d4d69a4559e4bd519b4b9 = $(`<div id="html_1e453b29423d4d69a4559e4bd519b4b9" style="width: 100.0%; height: 100.0%;">Castles of the Ages |  Hawaii USA | (2012)</div>`)[0];
+                popup_84ce193d79c4463c8e6ad56eb4b6f554.setContent(html_1e453b29423d4d69a4559e4bd519b4b9);
+            
+
+            circle_marker_cb3a428194eb4177bb7bc40a58c3ad03.bindPopup(popup_84ce193d79c4463c8e6ad56eb4b6f554)
+            ;
+
+            
+        
+    
+            var circle_marker_9f1bd67f119d4b829d76640be4313be8 = L.circleMarker(
+                [41.0096334, 28.9651646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_463d960038054ec8aa9bbe1f67c2ac35 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_215c9fb4378749c787d9deef6a21cb5a = $(`<div id="html_215c9fb4378749c787d9deef6a21cb5a" style="width: 100.0%; height: 100.0%;">Castles of the Ages | Istanbul Turkey | (2012)</div>`)[0];
+                popup_463d960038054ec8aa9bbe1f67c2ac35.setContent(html_215c9fb4378749c787d9deef6a21cb5a);
+            
+
+            circle_marker_9f1bd67f119d4b829d76640be4313be8.bindPopup(popup_463d960038054ec8aa9bbe1f67c2ac35)
+            ;
+
+            
+        
+    
+            var circle_marker_22e61879218b4c77817a0834151324cc = L.circleMarker(
+                [61.0666922, -107.9917071],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_d6e6a5fe63b74145abf24d8ef73a483a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5cad1cfc453748be94e59c89f2d62ba4 = $(`<div id="html_5cad1cfc453748be94e59c89f2d62ba4" style="width: 100.0%; height: 100.0%;">Cast Out | Canada | (2004)</div>`)[0];
+                popup_d6e6a5fe63b74145abf24d8ef73a483a.setContent(html_5cad1cfc453748be94e59c89f2d62ba4);
+            
+
+            circle_marker_22e61879218b4c77817a0834151324cc.bindPopup(popup_d6e6a5fe63b74145abf24d8ef73a483a)
+            ;
+
+            
+        
+    
+            var circle_marker_33c2997000f04dc88c6c8e5824327496 = L.circleMarker(
+                [52.0977181, 19.0258159],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_d5f54cf44fcc4f499dc7832584f42e1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b469d0cff24842458a5abe3d01f15f53 = $(`<div id="html_b469d0cff24842458a5abe3d01f15f53" style="width: 100.0%; height: 100.0%;">Cast Out | Poland | (2004)</div>`)[0];
+                popup_d5f54cf44fcc4f499dc7832584f42e1e.setContent(html_b469d0cff24842458a5abe3d01f15f53);
+            
+
+            circle_marker_33c2997000f04dc88c6c8e5824327496.bindPopup(popup_d5f54cf44fcc4f499dc7832584f42e1e)
+            ;
+
+            
+        
+    
+            var circle_marker_8d9ec0d5407345e6bfc911fe4c321a93 = L.circleMarker(
+                [50.05917, -122.95695],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_e99753aa9ed14982912936ad78ac8457 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c4bc20be41248b588c7668004686046 = $(`<div id="html_6c4bc20be41248b588c7668004686046" style="width: 100.0%; height: 100.0%;">Cast Out | Whistler Mountain Whistler British Columbia Canada | (2004)</div>`)[0];
+                popup_e99753aa9ed14982912936ad78ac8457.setContent(html_6c4bc20be41248b588c7668004686046);
+            
+
+            circle_marker_8d9ec0d5407345e6bfc911fe4c321a93.bindPopup(popup_e99753aa9ed14982912936ad78ac8457)
+            ;
+
+            
+        
+    
+            var circle_marker_96c4097a835b4ebc9b33f4dde0ac8ec5 = L.circleMarker(
+                [37.239243, -121.8767664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_b17f70e3665a44e695b2229130326b01 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_72ead17a603240238066a68a6057a7cb = $(`<div id="html_72ead17a603240238066a68a6057a7cb" style="width: 100.0%; height: 100.0%;">A Nossa Forma de Vida | Porto Portugal | (2011)</div>`)[0];
+                popup_b17f70e3665a44e695b2229130326b01.setContent(html_72ead17a603240238066a68a6057a7cb);
+            
+
+            circle_marker_96c4097a835b4ebc9b33f4dde0ac8ec5.bindPopup(popup_b17f70e3665a44e695b2229130326b01)
+            ;
+
+            
+        
+    
+            var circle_marker_6f25c44a00fa4c42968774a009656b2a = L.circleMarker(
+                [28.6000625, -81.3427438436485],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_14e005fed48d407da383a1677970724a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fc01b0f80ecd4c47aa5ff67461871bea = $(`<div id="html_fc01b0f80ecd4c47aa5ff67461871bea" style="width: 100.0%; height: 100.0%;">A Perfect Love | Winter Park Florida USA | (2005)</div>`)[0];
+                popup_14e005fed48d407da383a1677970724a.setContent(html_fc01b0f80ecd4c47aa5ff67461871bea);
+            
+
+            circle_marker_6f25c44a00fa4c42968774a009656b2a.bindPopup(popup_14e005fed48d407da383a1677970724a)
+            ;
+
+            
+        
+    
+            var circle_marker_711be6d9c6044c0892f1d0f55d23d8bd = L.circleMarker(
+                [52.3745403, 4.89797550561798],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_097320696e1b412ea7685a93f2feaf77 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_95d480e2ad804a03b36bf9f237bcf2de = $(`<div id="html_95d480e2ad804a03b36bf9f237bcf2de" style="width: 100.0%; height: 100.0%;">A Perfect Man | Amsterdam Noord-Holland Netherlands | (2013)</div>`)[0];
+                popup_097320696e1b412ea7685a93f2feaf77.setContent(html_95d480e2ad804a03b36bf9f237bcf2de);
+            
+
+            circle_marker_711be6d9c6044c0892f1d0f55d23d8bd.bindPopup(popup_097320696e1b412ea7685a93f2feaf77)
+            ;
+
+            
+        
+    
+            var circle_marker_ade6439c805f4949b67281e81300bc04 = L.circleMarker(
+                [40.7308619, -73.9871558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_9adf8dc158024ba7a2d5ae97c0aec179 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_00460e3a060846a792dbfbbe6d99b965 = $(`<div id="html_00460e3a060846a792dbfbbe6d99b965" style="width: 100.0%; height: 100.0%;">A Perfect Match | New York City New York USA | (2005)</div>`)[0];
+                popup_9adf8dc158024ba7a2d5ae97c0aec179.setContent(html_00460e3a060846a792dbfbbe6d99b965);
+            
+
+            circle_marker_ade6439c805f4949b67281e81300bc04.bindPopup(popup_9adf8dc158024ba7a2d5ae97c0aec179)
+            ;
+
+            
+        
+    
+            var circle_marker_c632030aceb94036adddb59156164557 = L.circleMarker(
+                [41.2021302, -73.3812743],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_b7f8906b097a4d6c8c0a11e3e31f735c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1da29160c74c4131a061d4ac63acfeb7 = $(`<div id="html_1da29160c74c4131a061d4ac63acfeb7" style="width: 100.0%; height: 100.0%;">A Perfect Match | Weston Connecticut USA | (2005)</div>`)[0];
+                popup_b7f8906b097a4d6c8c0a11e3e31f735c.setContent(html_1da29160c74c4131a061d4ac63acfeb7);
+            
+
+            circle_marker_c632030aceb94036adddb59156164557.bindPopup(popup_b7f8906b097a4d6c8c0a11e3e31f735c)
+            ;
+
+            
+        
+    
+            var circle_marker_4957246b09fb4f329fe66920d2e31717 = L.circleMarker(
+                [46.603354, 1.8883335],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_264887f448ab4f3bba1e0e8c5a5040ea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d61fe0633d454372bdd125f28087dcd3 = $(`<div id="html_d61fe0633d454372bdd125f28087dcd3" style="width: 100.0%; height: 100.0%;">A Picnic to End All Picnics | France | (2006)</div>`)[0];
+                popup_264887f448ab4f3bba1e0e8c5a5040ea.setContent(html_d61fe0633d454372bdd125f28087dcd3);
+            
+
+            circle_marker_4957246b09fb4f329fe66920d2e31717.bindPopup(popup_264887f448ab4f3bba1e0e8c5a5040ea)
+            ;
+
+            
+        
+    
+            var circle_marker_243002bae05b4dcc94c76690df7b7792 = L.circleMarker(
+                [40.6584358, -74.2995923],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_5e66b01a553f4669b3275e0e847cd517 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dc485763468c4dbbac8356e54dc0202b = $(`<div id="html_dc485763468c4dbbac8356e54dc0202b" style="width: 100.0%; height: 100.0%;">A Picture & A Gun | Cranford New Jersey USA | (2016)</div>`)[0];
+                popup_5e66b01a553f4669b3275e0e847cd517.setContent(html_dc485763468c4dbbac8356e54dc0202b);
+            
+
+            circle_marker_243002bae05b4dcc94c76690df7b7792.bindPopup(popup_5e66b01a553f4669b3275e0e847cd517)
+            ;
+
+            
+        
+    
+            var circle_marker_f4d2f061f11f40dca767d47346d8d0aa = L.circleMarker(
+                [57.60383555, -7.34096528080509],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_79e4a2d9f06b487983344f063427d2c1);
+            
+    
+            var popup_fba316f6e92e404cba9c447df5d13f21 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3aa951b932cb486893cbf9192a127bc3 = $(`<div id="html_3aa951b932cb486893cbf9192a127bc3" style="width: 100.0%; height: 100.0%;">A Pride of Islands | North Uist Western Isles Scotland UK | (1973)</div>`)[0];
+                popup_fba316f6e92e404cba9c447df5d13f21.setContent(html_3aa951b932cb486893cbf9192a127bc3);
+            
+
+            circle_marker_f4d2f061f11f40dca767d47346d8d0aa.bindPopup(popup_fba316f6e92e404cba9c447df5d13f21)
+            ;
+
+            
+        
+    
+            var feature_group_ab894809d7644121b112d761406d94b6 = L.featureGroup(
+                ).addTo(map_c5804bee66de4c839854073f8ef0ad63);
+        
+    
+        var marker_04cc3ed3a0724108ab6cdeee852d0802 = L.marker(
+            [34.1063704, -118.3092956],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_e9a07ed977fd41b7bed3063627a8f0b2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_04cc3ed3a0724108ab6cdeee852d0802.setIcon(icon_e9a07ed977fd41b7bed3063627a8f0b2);
+            
+    
+            var popup_ed7a70feb554467c895a5eb3cd19ec2c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1cb6db6cf7294982bbb77fc5ff420557 = $(`<div id="html_1cb6db6cf7294982bbb77fc5ff420557" style="width: 100.0%; height: 100.0%;">American Film Institute | Western Ave Los Angeles</div>`)[0];
+                popup_ed7a70feb554467c895a5eb3cd19ec2c.setContent(html_1cb6db6cf7294982bbb77fc5ff420557);
+            
+
+            marker_04cc3ed3a0724108ab6cdeee852d0802.bindPopup(popup_ed7a70feb554467c895a5eb3cd19ec2c)
+            ;
+
+            
+        
+    
+        var marker_4c69b9f250c7411497c47c6f829c98b6 = L.marker(
+            [34.3948, -118.567326],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_983b54ab03ab4d50a4cc6173ed68bfec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c69b9f250c7411497c47c6f829c98b6.setIcon(icon_983b54ab03ab4d50a4cc6173ed68bfec);
+            
+    
+            var popup_6cf85bc38e9c4c408e5b8f6ed1ca4083 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4a1109ccf8ac48379890252ad03cf166 = $(`<div id="html_4a1109ccf8ac48379890252ad03cf166" style="width: 100.0%; height: 100.0%;">CalArts | McBean Pkwy Valencia</div>`)[0];
+                popup_6cf85bc38e9c4c408e5b8f6ed1ca4083.setContent(html_4a1109ccf8ac48379890252ad03cf166);
+            
+
+            marker_4c69b9f250c7411497c47c6f829c98b6.bindPopup(popup_6cf85bc38e9c4c408e5b8f6ed1ca4083)
+            ;
+
+            
+        
+    
+        var marker_62ddd895550b4212940c6e16c6e20789 = L.marker(
+            [34.0487737, -118.5333123],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_8c3992d2289348c98f7b39108540c330 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62ddd895550b4212940c6e16c6e20789.setIcon(icon_8c3992d2289348c98f7b39108540c330);
+            
+    
+            var popup_3e37008479434f5e80bfdebb6fe22d2a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b46c9bc366b540ce9bf82964e29ab6b6 = $(`<div id="html_b46c9bc366b540ce9bf82964e29ab6b6" style="width: 100.0%; height: 100.0%;">Los Angeles Film School | Sunset Blvd Los Angeles</div>`)[0];
+                popup_3e37008479434f5e80bfdebb6fe22d2a.setContent(html_b46c9bc366b540ce9bf82964e29ab6b6);
+            
+
+            marker_62ddd895550b4212940c6e16c6e20789.bindPopup(popup_3e37008479434f5e80bfdebb6fe22d2a)
+            ;
+
+            
+        
+    
+        var marker_4ed6eb812eaf4a8090292957cdb138e4 = L.marker(
+            [40.892084, -73.8971095],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_f5e4e1eb66644ce78e21342ec8ea809f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ed6eb812eaf4a8090292957cdb138e4.setIcon(icon_f5e4e1eb66644ce78e21342ec8ea809f);
+            
+    
+            var popup_f5b3620410114c4892b21ef92fa7aa53 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ccfde79c076b49b99ba791ad8ed831ee = $(`<div id="html_ccfde79c076b49b99ba791ad8ed831ee" style="width: 100.0%; height: 100.0%;">Kanbar Institute of Film & Television | Broadway New York</div>`)[0];
+                popup_f5b3620410114c4892b21ef92fa7aa53.setContent(html_ccfde79c076b49b99ba791ad8ed831ee);
+            
+
+            marker_4ed6eb812eaf4a8090292957cdb138e4.bindPopup(popup_f5b3620410114c4892b21ef92fa7aa53)
+            ;
+
+            
+        
+    
+        var marker_2567542bbeff4e168f90d1abf81ab7fa = L.marker(
+            [43.653963, -79.387207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_1fb4b46ce07c48e2b97c134f9a78bfe8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2567542bbeff4e168f90d1abf81ab7fa.setIcon(icon_1fb4b46ce07c48e2b97c134f9a78bfe8);
+            
+    
+            var popup_f7c342d3f5cd46d5917ff16cf19d2070 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b89a46d64f04375a62390e990da82fa = $(`<div id="html_7b89a46d64f04375a62390e990da82fa" style="width: 100.0%; height: 100.0%;">Toronto Film School | Toronto Canada</div>`)[0];
+                popup_f7c342d3f5cd46d5917ff16cf19d2070.setContent(html_7b89a46d64f04375a62390e990da82fa);
+            
+
+            marker_2567542bbeff4e168f90d1abf81ab7fa.bindPopup(popup_f7c342d3f5cd46d5917ff16cf19d2070)
+            ;
+
+            
+        
+    
+        var marker_7574474b3696437db39cf613a70ee4d1 = L.marker(
+            [51.5135557, -0.1257689],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_866368d29a9c44e5892c54ddc9379205 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7574474b3696437db39cf613a70ee4d1.setIcon(icon_866368d29a9c44e5892c54ddc9379205);
+            
+    
+            var popup_b02a5ff645bf4ca0b0be4716da2637fa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_784dd313f9b74348b0db5fb268c4bce9 = $(`<div id="html_784dd313f9b74348b0db5fb268c4bce9" style="width: 100.0%; height: 100.0%;">London Film School | 24 Shelton St London</div>`)[0];
+                popup_b02a5ff645bf4ca0b0be4716da2637fa.setContent(html_784dd313f9b74348b0db5fb268c4bce9);
+            
+
+            marker_7574474b3696437db39cf613a70ee4d1.bindPopup(popup_b02a5ff645bf4ca0b0be4716da2637fa)
+            ;
+
+            
+        
+    
+        var marker_86d30496d2ec4c51955289f1cc072955 = L.marker(
+            [48.8566101, 2.3514992],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_f8923bd03d5b4d1ab81dfa393012a81e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86d30496d2ec4c51955289f1cc072955.setIcon(icon_f8923bd03d5b4d1ab81dfa393012a81e);
+            
+    
+            var popup_ed42b71dbaeb4649b4b0f1ec40c79a81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c365eb09a4b4ffdbb48df2e7b4c83d4 = $(`<div id="html_9c365eb09a4b4ffdbb48df2e7b4c83d4" style="width: 100.0%; height: 100.0%;">La femis | Paris</div>`)[0];
+                popup_ed42b71dbaeb4649b4b0f1ec40c79a81.setContent(html_9c365eb09a4b4ffdbb48df2e7b4c83d4);
+            
+
+            marker_86d30496d2ec4c51955289f1cc072955.bindPopup(popup_ed42b71dbaeb4649b4b0f1ec40c79a81)
+            ;
+
+            
+        
+    
+        var marker_98286b14286445adaf43ddf37ccb31e2 = L.marker(
+            [51.77305755, 19.4783822195225],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_9adf2194dc5943989a6e539bd0861ad4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_98286b14286445adaf43ddf37ccb31e2.setIcon(icon_9adf2194dc5943989a6e539bd0861ad4);
+            
+    
+            var popup_dffa564ddd5d4754a1e14ab24e660115 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_800ef91f3b5147deb22e7c637997d3a2 = $(`<div id="html_800ef91f3b5147deb22e7c637997d3a2" style="width: 100.0%; height: 100.0%;">Lodz Film School | Lodz Poland</div>`)[0];
+                popup_dffa564ddd5d4754a1e14ab24e660115.setContent(html_800ef91f3b5147deb22e7c637997d3a2);
+            
+
+            marker_98286b14286445adaf43ddf37ccb31e2.bindPopup(popup_dffa564ddd5d4754a1e14ab24e660115)
+            ;
+
+            
+        
+    
+        var marker_22e18998a1aa463e957871a3eb8dcb90 = L.marker(
+            [39.906217, 116.3912757],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_712964ae31384d42b6a394a51547d64f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22e18998a1aa463e957871a3eb8dcb90.setIcon(icon_712964ae31384d42b6a394a51547d64f);
+            
+    
+            var popup_75cfc414b98749e5938f7679ac2a7185 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb36e0146d22406d83582eb2598ea010 = $(`<div id="html_cb36e0146d22406d83582eb2598ea010" style="width: 100.0%; height: 100.0%;">Beijing Film Academy | Beijing</div>`)[0];
+                popup_75cfc414b98749e5938f7679ac2a7185.setContent(html_cb36e0146d22406d83582eb2598ea010);
+            
+
+            marker_22e18998a1aa463e957871a3eb8dcb90.bindPopup(popup_75cfc414b98749e5938f7679ac2a7185)
+            ;
+
+            
+        
+    
+        var marker_16ad3d915ade4b998c1fe65159cc4fbf = L.marker(
+            [36.5581914, 127.9408564],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_ab894809d7644121b112d761406d94b6);
+        
+    
+
+                var icon_a37f089cb74b4f24921db7460eecebc3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_16ad3d915ade4b998c1fe65159cc4fbf.setIcon(icon_a37f089cb74b4f24921db7460eecebc3);
+            
+    
+            var popup_62dd5ca2d8da424890f809d96a47d3e1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b846de8d97904705bda7c17361f08cdf = $(`<div id="html_b846de8d97904705bda7c17361f08cdf" style="width: 100.0%; height: 100.0%;">Korean Academy of Film Arts | South Korea</div>`)[0];
+                popup_62dd5ca2d8da424890f809d96a47d3e1.setContent(html_b846de8d97904705bda7c17361f08cdf);
+            
+
+            marker_16ad3d915ade4b998c1fe65159cc4fbf.bindPopup(popup_62dd5ca2d8da424890f809d96a47d3e1)
+            ;
+
+            
+        
+    
+            var layer_control_c93aebcf7c76401ea8d553bea89d462b = {
+                base_layers : { "openstreetmap" : tile_layer_8ae207b9ca054b77be4ec1e5242103c2, },
+                overlays : { "Movie Locations And Info" : feature_group_79e4a2d9f06b487983344f063427d2c1,"Top Movie Academies" : feature_group_ab894809d7644121b112d761406d94b6, }
+                };
+            L.control.layers(
+                layer_control_c93aebcf7c76401ea8d553bea89d462b.base_layers,
+                layer_control_c93aebcf7c76401ea8d553bea89d462b.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_c5804bee66de4c839854073f8ef0ad63);
+            
+        
+</script>
